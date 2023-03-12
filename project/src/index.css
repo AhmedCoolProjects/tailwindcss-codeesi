@@ -1,0 +1,9 @@
+@tailwind base;
+@tailwind utilities;
+@tailwind components;
+
+@layer components {
+  .card {
+    @apply bg-[#3E3F4B] p-2 my-2 rounded-md text-center text-[9px];
+  }
+}
